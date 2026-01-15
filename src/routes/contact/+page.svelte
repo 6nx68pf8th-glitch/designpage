@@ -1,12 +1,13 @@
 <script lang="ts">
     import Form from "$lib/components/Form.svelte";
+
 </script>
 
 
-<section class="flex font-serif">
-    <div class="w-1/3 m-20 justify-center text-center text-xl">
+<section class="lg:flex font-serif">
+    <div class="lg:w-1/3 lg:m-20 justify-center text-center text-xl">
         <h2 class="font-bold m-5 text-left">
-            Stack 🔗
+            Stack
         </h2>
 
         <ul class="text-left ml-10">
@@ -27,7 +28,7 @@
         </ul>
     </div>
 
-    <div class="w-2/3 justify-center items-center text-center m-20">
+    <div class="lg:w-2/3 justify-center items-center text-center lg:m-20 md:mx-20 mt-10">
         <h1 class=" text-xl items-center text-center font-bold m-5">
             Let's Chat
         </h1>
@@ -38,21 +39,14 @@
         <div class="text-left m-6">
             <Form /> 
         </div>
+
+        <div>
+            
+        </div>
     </div>
 </section>
 
-<section>
-    <figure class="flex flex-col gap-1 overflow-auto py-5 mt-12 mb-24 scroll-auto">
-        <div class="not-prose rounded-lg snap-x">
-                <div class="flex  snap-start overflow-x-scroll scroll-ml-2 gap-2 rounded-3xl inset-ring inset-ring-gray-800/20">
-                    
-                </div>
-        
-        </div>
 
-
-    </figure>
-</section>
 
 <style>
     a:hover {
