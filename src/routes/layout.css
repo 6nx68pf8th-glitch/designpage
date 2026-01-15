@@ -3,10 +3,3 @@
 @plugin '@tailwindcss/typography';
 
 
-html {
-    background-color: #060d20;
-    
-}
-h1, h2, h3, p, a, li, button{
-    color: #97a8b9;
-}

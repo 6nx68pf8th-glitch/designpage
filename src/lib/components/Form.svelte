@@ -8,7 +8,7 @@
 
 <div class="mt-4">
     {#if !formShow}
-    <button onclick={click} class="text-blue-700 xl:text-xl xl:bg-slate-700/0 bg-slate-700 xl:p-0 p-2 rounded xl:hover:underline">
+    <button onclick={click} class="text-blue-700 hover:underline">
         Contact Form
     </button>
     {:else}
