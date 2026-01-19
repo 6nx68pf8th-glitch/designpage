@@ -44,7 +44,7 @@
         </section>
         
         <section class="m-6 text-center">
-             <input type="submit" class=" hover:underline px-2">
+             <input type="submit" class="button hover:underline px-2">
             <button onclick={click} class=" hover:underline px-2 ">Cancel</button>
         </section>
         
