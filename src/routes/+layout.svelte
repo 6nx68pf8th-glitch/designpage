@@ -11,7 +11,7 @@
 	
 	<ul class="flex flexbox gap-6 items-center text-center">
 		<li>
-			<a href="/">
+			<a href="/about">
 				<button class="m-auto p-4 hover:underline"> 
 					About
 				</button>
