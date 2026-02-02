@@ -6,13 +6,13 @@
     }
 </script>
 
-<div class=" mt-4">
+<div class="flex item-center justify-center text-center mt-4">
     {#if !formShow}
     <button onclick={click} class="text-blue-700 xl:text-xl xl:bg-slate-700/0 bg-slate-700 xl:p-0 p-2 rounded xl:hover:underline">
         Contact Form
     </button>
-    {:else}
-    <form action="" class="mx-20 py-6">
+    {:else} 
+    <form action="" class="py-6">
         <section class="m-3">
             <input 
                 type="text" 
@@ -20,7 +20,7 @@
                 id="name" 
                 placeholder="Name" 
                 required 
-                class="rounded-lg border-0 m-1 bg-blue-100"
+                class="rounded-lg border-0 lg:m-0 m-1 mr-1 bg-blue-100"
             >
             
             <input 
@@ -29,17 +29,17 @@
                 id="email" 
                 placeholder="Email" 
                 required 
-                class="rounded-lg border-0 m-1 bg-blue-100"
+                class="rounded-lg border-0 lg:m-0 m-1 ml-1 bg-blue-100"
             >
         </section>
        
-        <section class="flex items-center m-3">
+        <section class=" m-3">
             <textarea 
                 name="message" 
                 id="message" 
                
                 placeholder="Your mesage here: " 
-                class="rounded-lg bg-blue-100 border-0 w-auto m-1"
+                class="rounded-lg bg-blue-100 border-0 lg:w-3/3 "
             ></textarea>
         </section>
         
